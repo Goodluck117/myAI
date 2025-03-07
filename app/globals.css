@@ -73,10 +73,11 @@ body {
     @apply border-border;
   }
   body {
-    background-image: url('/background.png'); /* Ensure correct image name */
+    background-image: url('/background.png'); /* Ensure the correct file name */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed; /* Keeps background stationary */
   @apply text-foreground;
   }
 }
